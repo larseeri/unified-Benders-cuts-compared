@@ -21,7 +21,7 @@ rankings_GRB_all_Std_cautious_Papa_rev_algo_30June2026_repo.csv
 
 ##### 1.1.4 Performance profiles for a subset of methods over all problem instances
 
-BDComp_compar-profiles_GRB_all_Std_cautious_Papa_rev_algo_30June2026_repo
+BDComp_compar-profiles_GRB_all_Std_cautious_Papa_rev_algo_30June2026_repo/
 
 #### 1.2 Second set of experiments: SMS++ supported by CPLEX
 
