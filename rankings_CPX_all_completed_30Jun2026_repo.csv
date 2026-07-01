@@ -1,0 +1,182 @@
+(copy of rankings_CPX_all_completed_21Jun2026-17h06.csv),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Benders methods are compared based on their rankings with respect to several measures of performance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of networks:,162,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of methods:,52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Methods (see legend below): ,,CPX_T-0.0001_ILP_flow,CPX_T-0.0001_ILP_flow_strong,CPX_T-0.0001_Std,CPX_F_T-0.0001_Std,CPX_T-0.0001_Std_Decomp,CPX_F_T-0.0001_Std_Decomp,CPX_T-0.0001_Fisch,CPX_F_T-0.0001_Fisch,CPX_U_T-0.0001_Fisch,CPX_F_U_T-0.0001_Fisch,CPX_T-0.0001_StatBS,CPX_F_T-0.0001_StatBS,CPX_U_T-0.0001_StatBS,CPX_F_U_T-0.0001_StatBS,CPX_G-0.1_M-1_T-0.0001_AdaptBS,CPX_F_G-0.1_M-1_T-0.0001_AdaptBS,CPX_G-0.5_M-1_T-0.0001_AdaptBS,CPX_F_G-0.5_M-1_T-0.0001_AdaptBS,CPX_M-1_T-0.0001_AdaptBS,CPX_F_M-1_T-0.0001_AdaptBS,CPX_E-2_T-0.0001_Seo,CPX_F_E-2_T-0.0001_Seo,CPX_E-4_T-0.0001_Seo,CPX_F_E-4_T-0.0001_Seo,CPX_R-0_T-0.0001_HT,CPX_F_R-0_T-0.0001_HT,CPX_R-1_T-0.0001_HT,CPX_F_R-1_T-0.0001_HT,CPX_R-2_T-0.0001_HT,CPX_F_R-2_T-0.0001_HT,CPX_P-1.0_L-0.5_A_T-0.0001_MW,CPX_F_P-1.0_L-0.5_A_T-0.0001_MW,CPX_P-1.0_L-0.5_T-0.0001_Papa,CPX_F_P-1.0_L-0.5_T-0.0001_Papa,CPX_H-0.1_G-0.1_M-1_T-0.0001_Glomb,CPX_F_H-0.1_G-0.1_M-1_T-0.0001_Glomb,CPX_H-0.1_G-0.25_M-1_T-0.0001_Glomb,CPX_F_H-0.1_G-0.25_M-1_T-0.0001_Glomb,CPX_H-0.1_G-0.75_M-1_T-0.0001_Glomb,CPX_F_H-0.1_G-0.75_M-1_T-0.0001_Glomb,CPX_H-0.5_G-0.1_M-1_T-0.0001_Glomb,CPX_F_H-0.5_G-0.1_M-1_T-0.0001_Glomb,CPX_H-0.5_G-0.25_M-1_T-0.0001_Glomb,CPX_F_H-0.5_G-0.25_M-1_T-0.0001_Glomb,CPX_H-0.5_G-0.75_M-1_T-0.0001_Glomb,CPX_F_H-0.5_G-0.75_M-1_T-0.0001_Glomb,CPX_H-0.9_G-0.1_M-1_T-0.0001_Glomb,CPX_F_H-0.9_G-0.1_M-1_T-0.0001_Glomb,CPX_H-0.9_G-0.25_M-1_T-0.0001_Glomb,CPX_F_H-0.9_G-0.25_M-1_T-0.0001_Glomb,CPX_H-0.9_G-0.75_M-1_T-0.0001_Glomb,CPX_F_H-0.9_G-0.75_M-1_T-0.0001_Glomb
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of valid computations:,,153,153,0,0,0,140,136,138,144,146,136,133,149,146,0,0,0,0,0,133,0,42,0,0,0,0,137,128,135,130,0,142,0,0,0,0,0,0,0,0,148,0,0,0,0,0,0,0,0,0,0,0
+Ratio of valid computations:,,0.944444444,0.944444444,0,0,0,0.864197531,0.839506173,0.851851852,0.888888889,0.901234568,0.839506173,0.820987654,0.919753086,0.901234568,0,0,0,0,0,0.820987654,0,0.259259259,0,0,0,0,0.845679012,0.790123457,0.833333333,0.802469136,0,0.87654321,0,0,0,0,0,0,0,0,0.913580247,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of invalid computations:,,9,9,162,162,162,22,26,24,18,16,26,29,13,16,162,162,162,162,162,29,162,120,162,162,162,162,25,34,27,32,162,20,162,162,162,162,162,162,162,162,14,162,162,162,162,162,162,162,162,162,162,162
+Ratio of invalid computations:,,0.055555556,0.055555556,1,1,1,0.135802469,0.160493827,0.148148148,0.111111111,0.098765432,0.160493827,0.179012346,0.080246914,0.098765432,1,1,1,1,1,0.179012346,1,0.740740741,1,1,1,1,0.154320988,0.209876543,0.166666667,0.197530864,1,0.12345679,1,1,1,1,1,1,1,1,0.086419753,1,1,1,1,1,1,1,1,1,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Block A: Report on networks solvable inside the time limit (36000s) through at least one Benders method,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of valid computations on Benders solvable networks:,,89,89,0,0,0,77,73,76,84,85,78,73,87,86,0,0,0,0,0,85,0,18,0,0,0,0,81,75,77,70,0,80,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0
+Ratio of valid computations on Benders solvable networks:,,0.549382716,0.549382716,0,0,0,0.475308642,0.450617284,0.469135802,0.518518519,0.524691358,0.481481481,0.450617284,0.537037037,0.530864198,0,0,0,0,0,0.524691358,0,0.111111111,0,0,0,0,0.5,0.462962963,0.475308642,0.432098765,0,0.49382716,0,0,0,0,0,0,0,0,0.518518519,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Block A1: Computations with methods finishing inside time limit (36000s) about networks in Block A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of valid computations:,,89,89,0,0,0,64,56,61,68,73,60,71,70,86,0,0,0,0,0,67,0,6,0,0,0,0,62,70,59,67,0,60,0,0,0,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,0,0
+Ratio of valid computations:,,0.549382716,0.549382716,0,0,0,0.395061728,0.345679012,0.37654321,0.419753086,0.450617284,0.37037037,0.438271605,0.432098765,0.530864198,0,0,0,0,0,0.413580247,0,0.037037037,0,0,0,0,0.382716049,0.432098765,0.364197531,0.413580247,0,0.37037037,0,0,0,0,0,0,0,0,0.432098765,0,0,0,0,0,0,0,0,0,0,0
+Rank of computation time:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,1.685393258,1.404494382,nan,nan,nan,9.65625,9.25,9.360655738,10.66176471,10.32876712,9.416666667,5.352112676,10.91428571,6.895348837,nan,nan,nan,nan,nan,10.26865672,nan,12.33333333,nan,nan,nan,nan,12.16129032,9.228571429,9.915254237,5.791044776,nan,13.01666667,nan,nan,nan,nan,nan,nan,nan,nan,8.3,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,0.058589889,0.064972781,nan,nan,nan,0.703374522,0.43466648,0.353910687,0.428549847,0.433645405,0.488928344,0.343903512,0.48307808,0.42914037,nan,nan,nan,nan,nan,0.5177113,nan,1.521451549,nan,nan,nan,nan,0.343812218,0.531908934,0.478367505,0.386066819,nan,0.53670376,nan,nan,nan,nan,nan,nan,nan,nan,0.44554484,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,1,1,nan,nan,nan,3,7,7,8,8,6,3,7,4,nan,nan,nan,nan,nan,7,nan,9.5,nan,nan,nan,nan,11,6,6.5,4,nan,9,nan,nan,nan,nan,nan,nan,nan,nan,5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,2,1,nan,nan,nan,9.5,9,8,11.5,9,10,4,11,5,nan,nan,nan,nan,nan,10,nan,11.5,nan,nan,nan,nan,13,6.5,11,5,nan,14,nan,nan,nan,nan,nan,nan,nan,nan,8.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,2,2,nan,nan,nan,15,11,11,13,14,12,7,14,9,nan,nan,nan,nan,nan,14.5,nan,14.25,nan,nan,nan,nan,14,13,12,7,nan,16,nan,nan,nan,nan,nan,nan,nan,nan,10.75,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of number of nodes:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,1.764044944,1.303370787,nan,nan,nan,14.2421875,10.40178571,9.131147541,10.03676471,7.561643836,9.725,5.73943662,9.778571429,5.203488372,nan,nan,nan,nan,nan,11.08208955,nan,9.666666667,nan,nan,nan,nan,10.38709677,6.214285714,10.40677966,6.388059701,nan,14.05833333,nan,nan,nan,nan,nan,nan,nan,nan,11.62142857,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,0.042851499,0.046746149,nan,nan,nan,0.379850175,0.43069038,0.392913175,0.394780525,0.291389088,0.48296322,0.353638827,0.402876863,0.310203477,nan,nan,nan,nan,nan,0.532063596,nan,1.465656218,nan,nan,nan,nan,0.500054544,0.390129679,0.473739361,0.480497451,nan,0.413167249,nan,nan,nan,nan,nan,nan,nan,nan,0.408386036,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,1.5,1,nan,nan,nan,12,8.375,7,8,6,7,4,7,3,nan,nan,nan,nan,nan,7,nan,7.25,nan,nan,nan,nan,7.25,4,8,3.5,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,10,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,2,1,nan,nan,nan,15,10,9,10,8,9,5,10,4,nan,nan,nan,nan,nan,11,nan,9,nan,nan,nan,nan,10.5,5,11,5,nan,15,nan,nan,nan,nan,nan,nan,nan,nan,11,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,2,1.5,nan,nan,nan,16,13,11,12.625,9,12.25,6,12,6,nan,nan,nan,nan,nan,15,nan,10,nan,nan,nan,nan,13,7,13,8,nan,17,nan,nan,nan,nan,nan,nan,nan,nan,14.75,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of number of subproblems:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,9.3125,8.821428571,7.852459016,6.220588235,4.678082192,9.466666667,4.598591549,7.164285714,1.802325581,nan,nan,nan,nan,nan,8.626865672,nan,14.33333333,nan,nan,nan,nan,9.774193548,4.478571429,9.703389831,5.462686567,nan,11.94166667,nan,nan,nan,nan,nan,nan,nan,nan,10.42857143,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.442010786,0.411572971,0.43962926,0.345100149,0.249482456,0.438410428,0.400433672,0.459338636,0.143424251,nan,nan,nan,nan,nan,0.473200627,nan,1.194121403,nan,nan,nan,nan,0.446642787,0.39633985,0.474291477,0.502866968,nan,0.406217591,nan,nan,nan,nan,nan,nan,nan,nan,0.381763592,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,6.875,6,6,4,3,7.375,2,3.625,1,nan,nan,nan,nan,nan,5,nan,12.75,nan,nan,nan,nan,8,2,7,2,nan,9.75,nan,nan,nan,nan,nan,nan,nan,nan,8,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,10,9,7,6,5,10,3,7.75,1,nan,nan,nan,nan,nan,8,nan,15.5,nan,nan,nan,nan,11,3,10,4,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,10,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,12,11.125,10,8,6,12,7,10,2,nan,nan,nan,nan,nan,12,nan,16.75,nan,nan,nan,nan,12.75,6,12.5,8,nan,14,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of number of feasibility cuts:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,13.3671875,9.169642857,8.967213115,8.544117647,8.273972603,6.666666667,3.105633803,6.085714286,2.744186047,nan,nan,nan,nan,nan,7.835820896,nan,15,nan,nan,nan,nan,6.298387097,3.142857143,6.855932203,3.910447761,nan,13.59166667,nan,nan,nan,nan,nan,nan,nan,nan,10.88571429,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.304034193,0.373994567,0.315093066,0.350749213,0.346285695,0.377614344,0.267775241,0.360692564,0.213577809,nan,nan,nan,nan,nan,0.502321195,nan,0.78173596,nan,nan,nan,nan,0.354739663,0.247877286,0.354729778,0.262560471,nan,0.301959266,nan,nan,nan,nan,nan,nan,nan,nan,0.302569174,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,12,7.375,8,6.5,7,5,1.5,4,1,nan,nan,nan,nan,nan,4,nan,13.5,nan,nan,nan,nan,4,1.5,5,2.5,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,9,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,14,10,9,9,9,6,2.5,6,2,nan,nan,nan,nan,nan,8.5,nan,15.5,nan,nan,nan,nan,6,3,6.5,3.5,nan,14,nan,nan,nan,nan,nan,nan,nan,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,15,11.625,11,11,10,9,4,7.875,3,nan,nan,nan,nan,nan,11.25,nan,16.75,nan,nan,nan,nan,8,4,8.5,5,nan,15,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of number of optimality cuts:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,7.5,9.196428571,8.229508197,6.625,4.609589041,9.991666667,4.957746479,7.614285714,1.994186047,nan,nan,nan,nan,nan,9.194029851,nan,13.5,nan,nan,nan,nan,10.29032258,4.878571429,10.30508475,5.776119403,nan,8.308333333,nan,nan,nan,nan,nan,nan,nan,nan,10.61428571,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.506669386,0.440619088,0.458514622,0.379567769,0.273329137,0.422540542,0.423794658,0.459832648,0.184494652,nan,nan,nan,nan,nan,0.485585864,nan,1.241638702,nan,nan,nan,nan,0.435864288,0.435355322,0.451149534,0.519210333,nan,0.491608989,nan,nan,nan,nan,nan,nan,nan,nan,0.397847708,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,4,6.75,6,4,3,8,2,4.125,1,nan,nan,nan,nan,nan,5.25,nan,11.25,nan,nan,nan,nan,8.25,2,7.5,2.25,nan,5.375,nan,nan,nan,nan,nan,nan,nan,nan,8.625,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,7,9,8,7,5,10.5,3,7,1,nan,nan,nan,nan,nan,9,nan,13.5,nan,nan,nan,nan,11,4,11,4,nan,8,nan,nan,nan,nan,nan,nan,nan,nan,10.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,10.25,12,10,9,6,12.25,8,11,2,nan,nan,nan,nan,nan,12.5,nan,16.5,nan,nan,nan,nan,13,6.375,13,8,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of number of cuts:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,9.5,9.008928571,8,6.345588235,4.678082192,9.675,4.556338028,7.25,1.610465116,nan,nan,nan,nan,nan,8.731343284,nan,14.5,nan,nan,nan,nan,10.08870968,4.485714286,9.906779661,5.544776119,nan,10.35,nan,nan,nan,nan,nan,nan,nan,nan,10.58571429,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.451235284,0.422292371,0.448204037,0.347889297,0.255428924,0.433625703,0.398811627,0.463543363,0.110740527,nan,nan,nan,nan,nan,0.486430752,nan,1.21906157,nan,nan,nan,nan,0.438834807,0.400378829,0.464399755,0.514625842,nan,0.420036374,nan,nan,nan,nan,nan,nan,nan,nan,0.378230497,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,6.375,6.75,6,4,3,7.375,2,4,1,nan,nan,nan,nan,nan,5,nan,13,nan,nan,nan,nan,8.125,2,7,2,nan,7,nan,nan,nan,nan,nan,nan,nan,nan,8.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,9.5,8.75,8,6,5,10,3,7.75,1,nan,nan,nan,nan,nan,9,nan,16,nan,nan,nan,nan,11,3,11,4,nan,10.5,nan,nan,nan,nan,nan,nan,nan,nan,10.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,12,12,10,8.125,6,12,7,10,2,nan,nan,nan,nan,nan,12,nan,16.75,nan,nan,nan,nan,13,6,12.5,8,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of total time spent in subproblems:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,4.5625,6.660714286,7.704918033,8.955882353,9.465753425,7.116666667,3.690140845,9.557142857,5.662790698,nan,nan,nan,nan,nan,7.343283582,nan,10.83333333,nan,nan,nan,nan,10.82258065,8,7.576271186,3.880597015,nan,11.51666667,nan,nan,nan,nan,nan,nan,nan,nan,5.528571429,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.528427705,0.384884015,0.342575306,0.473078806,0.401293738,0.476731736,0.356085503,0.544597104,0.434955368,nan,nan,nan,nan,nan,0.487103559,nan,1.2783815,nan,nan,nan,nan,0.357413091,0.520988072,0.440158357,0.395182838,nan,0.525722607,nan,nan,nan,nan,nan,nan,nan,nan,0.376732151,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,1,4,6,6,7,3.75,1,5.25,3,nan,nan,nan,nan,nan,4,nan,8.25,nan,nan,nan,nan,9.25,4,4,2,nan,8,nan,nan,nan,nan,nan,nan,nan,nan,3,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,3,6.5,7,10,9,7,2,10,4,nan,nan,nan,nan,nan,6,nan,10.5,nan,nan,nan,nan,11,7,8,2,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,6,8.25,9,12,12,10,5,13,9,nan,nan,nan,nan,nan,10,nan,12.75,nan,nan,nan,nan,13,12,10.5,5,nan,15,nan,nan,nan,nan,nan,nan,nan,nan,8,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of maximum resident memory size:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,10.8984375,6.535714286,6.647540984,6.632352941,5.849315068,7.466666667,4.436619718,7.292857143,3.895348837,nan,nan,nan,nan,nan,10.88059701,nan,12.83333333,nan,nan,nan,nan,7.870967742,5,8.389830508,4.231343284,nan,12.18333333,nan,nan,nan,nan,nan,nan,nan,nan,10.62857143,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.409717725,0.488198927,0.428484618,0.392073503,0.329150024,0.50371766,0.398485724,0.42851105,0.343772957,nan,nan,nan,nan,nan,0.491075346,nan,1.754623522,nan,nan,nan,nan,0.468705277,0.383857967,0.536524051,0.355137384,nan,0.404311257,nan,nan,nan,nan,nan,nan,nan,nan,0.415231152,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,9,4,4.5,4,4,4.375,1.75,4.125,2,nan,nan,nan,nan,nan,7.5,nan,9.5,nan,nan,nan,nan,5,2,5.75,2,nan,11,nan,nan,nan,nan,nan,nan,nan,nan,9,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,12,6,6,6.5,5.5,8,3,7.75,3,nan,nan,nan,nan,nan,12,nan,14.5,nan,nan,nan,nan,8.5,4,9,4,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,14,8,8,9,7.5,10,7,10,5,nan,nan,nan,nan,nan,15,nan,16.5,nan,nan,nan,nan,11,7.875,11,6,nan,14,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of maximum virtual memory size:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,,,nan,nan,nan,11.375,6.223214286,6.983606557,6.433823529,6.157534247,6.75,4.063380282,7,3.656976744,nan,nan,nan,nan,nan,11.35820896,nan,13.5,nan,nan,nan,nan,7.862903226,5.221428571,7.542372881,4.529850746,nan,12.38333333,nan,nan,nan,nan,nan,nan,nan,nan,11.12857143,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,,,nan,nan,nan,0.370744079,0.502373138,0.303603551,0.370416687,0.28943956,0.552959211,0.380142068,0.424264069,0.29999793,nan,nan,nan,nan,nan,0.517762675,nan,1.348867838,nan,nan,nan,nan,0.450483807,0.384075316,0.518584263,0.396981341,nan,0.385206775,nan,nan,nan,nan,nan,nan,nan,nan,0.382217712,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,,,nan,nan,nan,9,3,5,4,5,2,1.5,4,2,nan,nan,nan,nan,nan,7,nan,12.5,nan,nan,nan,nan,5,3,4,2,nan,11,nan,nan,nan,nan,nan,nan,nan,nan,10,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,,,nan,nan,nan,12,6,7,6,6,7.5,3,7.5,2.75,nan,nan,nan,nan,nan,13,nan,14.5,nan,nan,nan,nan,8.5,4,7,4,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,,,nan,nan,nan,13,9,9,9,7,10.125,6,10,5,nan,nan,nan,nan,nan,15,nan,15.75,nan,nan,nan,nan,10.875,8,10.75,6.5,nan,14,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Block A2: Computations with methods reaching time limit (36000s) about networks in Block A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of valid computations:,,0,0,0,0,0,13,17,15,16,12,18,2,17,0,0,0,0,0,0,18,0,12,0,0,0,0,19,5,18,3,0,20,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0
+Ratio of valid computations:,,0,0,0,0,0,0.080246914,0.104938272,0.092592593,0.098765432,0.074074074,0.111111111,0.012345679,0.104938272,0,0,0,0,0,0,0.111111111,0,0.074074074,0,0,0,0,0.117283951,0.030864198,0.111111111,0.018518519,0,0.12345679,0,0,0,0,0,0,0,0,0.086419753,0,0,0,0,0,0,0,0,0,0,0
+Rank of relative gap:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,nan,nan,nan,nan,nan,6.846153846,6.352941176,3.2,6.125,3.166666667,6.555555556,1.5,6.352941176,nan,nan,nan,nan,nan,nan,3.388888889,nan,4.333333333,nan,nan,nan,nan,7.210526316,2.6,6.277777778,2,nan,6.6,nan,nan,nan,nan,nan,nan,nan,nan,5.714285714,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,nan,nan,nan,nan,nan,1.340520758,0.710480984,0.500666223,0.551099753,0.550672989,0.619748168,0.353553391,0.581973593,nan,nan,nan,nan,nan,nan,0.766340063,nan,1.022886258,nan,nan,nan,nan,0.779156968,0.536656315,0.632482643,0.471404521,nan,1.070980859,nan,nan,nan,nan,nan,nan,nan,nan,0.66569414,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,nan,nan,nan,nan,nan,1,5,1.5,4,2,5,1.25,5,nan,nan,nan,nan,nan,nan,1,nan,1,nan,nan,nan,nan,4,2,4.25,1.5,nan,2,nan,nan,nan,nan,nan,nan,nan,nan,4.25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,nan,nan,nan,nan,nan,8,6,3,6,3,7,1.5,7,nan,nan,nan,nan,nan,nan,2,nan,3.5,nan,nan,nan,nan,9,2,7.5,2,nan,5,nan,nan,nan,nan,nan,nan,nan,nan,5.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,nan,nan,nan,nan,nan,11,8,4,7,3,8,1.75,7,nan,nan,nan,nan,nan,nan,4.5,nan,6.25,nan,nan,nan,nan,10,4,8,2.5,nan,11,nan,nan,nan,nan,nan,nan,nan,nan,8,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of relative distance to minimum upper bound:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,nan,nan,nan,nan,nan,6.653846154,6.352941176,4.133333333,6.53125,3.208333333,6.055555556,2,5.264705882,nan,nan,nan,nan,nan,nan,3.222222222,nan,4.916666667,nan,nan,nan,nan,7.236842105,3.6,5.25,2.333333333,nan,7.45,nan,nan,nan,nan,nan,nan,nan,nan,5.642857143,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,nan,nan,nan,nan,nan,1.30246082,0.653397702,0.680631515,0.639623837,0.531828389,0.697093712,0.707106781,0.816268036,nan,nan,nan,nan,nan,nan,0.739350547,nan,1.175315167,nan,nan,nan,nan,0.666125795,0.876356092,0.606357776,0.7200823,nan,0.91849061,nan,nan,nan,nan,nan,nan,nan,nan,0.805637932,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,nan,nan,nan,nan,nan,2,4,2,5,2,4.125,1.5,2,nan,nan,nan,nan,nan,nan,1,nan,1,nan,nan,nan,nan,4.75,3,3.125,1.5,nan,4.5,nan,nan,nan,nan,nan,nan,nan,nan,3.25,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,nan,nan,nan,nan,nan,7,6,3,6,2.5,5.5,2,5,nan,nan,nan,nan,nan,nan,2,nan,4.5,nan,nan,nan,nan,8,3,6,2,nan,7.25,nan,nan,nan,nan,nan,nan,nan,nan,5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,nan,nan,nan,nan,nan,11,9,6.5,8,3.5,9,2.5,7,nan,nan,nan,nan,nan,nan,3.75,nan,7.25,nan,nan,nan,nan,10,4,7.75,3,nan,11,nan,nan,nan,nan,nan,nan,nan,nan,7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of relative distance to maximum lower bound:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,nan,nan,nan,nan,nan,7.461538462,6.529411765,3.266666667,6,3.333333333,6.611111111,1.5,6.941176471,nan,nan,nan,nan,nan,nan,3.611111111,nan,2.5,nan,nan,nan,nan,7.157894737,2.6,6.222222222,1.666666667,nan,6.8,nan,nan,nan,nan,nan,nan,nan,nan,5.285714286,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,nan,nan,nan,nan,nan,1.243279613,0.676432976,0.503027869,0.522912517,0.556942713,0.604197707,0.353553391,0.613969941,nan,nan,nan,nan,nan,nan,0.741781676,nan,0.640095479,nan,nan,nan,nan,0.785121893,0.726636085,0.678394781,0.544331054,nan,1.069111781,nan,nan,nan,nan,nan,nan,nan,nan,0.680850095,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,nan,nan,nan,nan,nan,2,5,1.5,4,2,5,1.25,6,nan,nan,nan,nan,nan,nan,2,nan,1,nan,nan,nan,nan,3.5,1,4.25,1,nan,2,nan,nan,nan,nan,nan,nan,nan,nan,3.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,nan,nan,nan,nan,nan,9,6,3,6,3,6,1.5,7,nan,nan,nan,nan,nan,nan,2,nan,1,nan,nan,nan,nan,8,2,6.5,1,nan,5,nan,nan,nan,nan,nan,nan,nan,nan,5.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,nan,nan,nan,nan,nan,11,8,4,7,4,8.75,1.75,9,nan,nan,nan,nan,nan,nan,3.75,nan,4.25,nan,nan,nan,nan,10,4,8,2,nan,11.25,nan,nan,nan,nan,nan,nan,nan,nan,7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Block B: Report on networks that cannot be solved inside the time limit (36000s) through any Benders method,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Number of valid computations:,,64,64,0,0,0,63,63,62,60,61,58,60,62,60,0,0,0,0,0,48,0,24,0,0,0,0,56,53,58,60,0,62,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0
+Ratio of valid computations:,,0.395061728,0.395061728,0,0,0,0.388888889,0.388888889,0.382716049,0.37037037,0.37654321,0.358024691,0.37037037,0.382716049,0.37037037,0,0,0,0,0,0.296296296,0,0.148148148,0,0,0,0,0.345679012,0.327160494,0.358024691,0.37037037,0,0.382716049,0,0,0,0,0,0,0,0,0.395061728,0,0,0,0,0,0,0,0,0,0,0
+Rank of relative gap:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,1.8203125,1.1796875,nan,nan,nan,15.63492063,10.20634921,8.306451613,11.03333333,10.39344262,12.70689655,4.666666667,11.40322581,4.2,nan,nan,nan,nan,nan,12.89583333,nan,8,nan,nan,nan,nan,13.41071429,5.773584906,12.74137931,4.45,nan,17.03225806,nan,nan,nan,nan,nan,nan,nan,nan,9.84375,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,0.0433114,0.0433114,nan,nan,nan,0.429629257,0.317586269,0.219483726,0.395788009,0.295335673,0.306497824,0.171053381,0.41276439,0.148698053,nan,nan,nan,nan,nan,0.510514092,nan,1.089724736,nan,nan,nan,nan,0.296425114,0.212867502,0.240837254,0.231450739,nan,0.266951556,nan,nan,nan,nan,nan,nan,nan,nan,0.395419792,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,2,1,nan,nan,nan,15,8,7,9,9,11,4,9,3,nan,nan,nan,nan,nan,10.5,nan,3,nan,nan,nan,nan,11.75,5,11,4,nan,17,nan,nan,nan,nan,nan,nan,nan,nan,7,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,2,1,nan,nan,nan,17,10,8,11,10,13,4,12,4,nan,nan,nan,nan,nan,13.5,nan,7,nan,nan,nan,nan,14,6,13,4,nan,18,nan,nan,nan,nan,nan,nan,nan,nan,10,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,2,1,nan,nan,nan,18,12,9,13.25,12,14.75,6,14,5,nan,nan,nan,nan,nan,16,nan,10.5,nan,nan,nan,nan,15,6,14,5,nan,18,nan,nan,nan,nan,nan,nan,nan,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of relative distance to minimum upper bound:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,1.578125,1.484375,nan,nan,nan,12.20634921,9.380952381,8.709677419,9.9,10.78688525,13.17241379,6.241666667,11.72580645,5.05,nan,nan,nan,nan,nan,13.33333333,nan,8.083333333,nan,nan,nan,nan,14.14285714,7.169811321,13.31034483,5.141666667,nan,15.37096774,nan,nan,nan,nan,nan,nan,nan,nan,9.546875,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,0.035318635,0.036591785,nan,nan,nan,0.628202044,0.41539326,0.29599046,0.486883513,0.36370895,0.424528788,0.42188263,0.416971737,0.279309665,nan,nan,nan,nan,nan,0.616844944,nan,1.163562338,nan,nan,nan,nan,0.306632229,0.439048008,0.336279299,0.315368318,nan,0.416387686,nan,nan,nan,nan,nan,nan,nan,nan,0.478507653,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,1.5,1.5,nan,nan,nan,8,7,7,7,9,11,4,9,3,nan,nan,nan,nan,nan,10,nan,3,nan,nan,nan,nan,13,5,12,4,nan,13.25,nan,nan,nan,nan,nan,nan,nan,nan,6,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,1.5,1.5,nan,nan,nan,13,10,8,10,12,14,5,12,5,nan,nan,nan,nan,nan,14,nan,6.5,nan,nan,nan,nan,15,6,13,4,nan,16.5,nan,nan,nan,nan,nan,nan,nan,nan,8.5,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,1.5,1.5,nan,nan,nan,17,11.5,10,13,12,16,8,14,6,nan,nan,nan,nan,nan,17,nan,14.25,nan,nan,nan,nan,15.25,9,15,6.25,nan,18,nan,nan,nan,nan,nan,nan,nan,nan,13,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+Rank of relative distance to maximun lower bound:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mean:,1.7734375,1.2265625,nan,nan,nan,15.61904762,11.22222222,8.741935484,12,10.19672131,12.01724138,4.45,11,4.116666667,nan,nan,nan,nan,nan,13.08333333,nan,7.625,nan,nan,nan,nan,12.71428571,5.905660377,11.63793103,4.466666667,nan,16.98387097,nan,nan,nan,nan,nan,nan,nan,nan,10.546875,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,std error of mean:,0.041235923,0.041235923,nan,nan,nan,0.438984932,0.32409297,0.286657406,0.372677996,0.311751105,0.338292716,0.151703292,0.433388027,0.133524169,nan,nan,nan,nan,nan,0.521943262,nan,1.102101055,nan,nan,nan,nan,0.362208966,0.194740658,0.325947148,0.165775395,nan,0.268432781,nan,nan,nan,nan,nan,nan,nan,nan,0.369708558,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.25 quantile:,1.5,1,nan,nan,nan,15,9,7,10,8,10,4,8,3,nan,nan,nan,nan,nan,9,nan,3,nan,nan,nan,nan,11,6,10,4,nan,16.25,nan,nan,nan,nan,nan,nan,nan,nan,9,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,median:,2,1,nan,nan,nan,17,11,8,12,10,12,4,11.5,4,nan,nan,nan,nan,nan,14.5,nan,7,nan,nan,nan,nan,13,6,12,4,nan,18,nan,nan,nan,nan,nan,nan,nan,nan,10,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,0.75 quantile:,2,1.5,nan,nan,nan,18,13,9,14,13,14,5,14,5,nan,nan,nan,nan,nan,16,nan,10.5,nan,nan,nan,nan,15,6,14,5,nan,18,nan,nan,nan,nan,nan,nan,nan,nan,12,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Legend,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1 Details of characteristics and measurements,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+instName:,network identifier,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+isSolved:,1 if valid solution found before time limit; 0 if valid uprBd and lwrBd were found but solution process interrupted by time limit; -1 if (i) missing or invalid (usually because process failed to find a feasible integral first stage solutionor if (ii) lwrBd == -1 or if (iii) uprBd == -1; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+totTime:,total time at exit; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+uprBd:,upper bound; -1 if invalid; missing or smaller than lower bound produced by direct ILP solution; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+lwrBd:,lower bound; -1 if invalid; missing or greater than upper bound produced by direct ILP solution; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+relGap:,relative gap; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbAllNodes:,number of nodes generated; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbSubp:,number of cut generating subproblems examined; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbFeasCuts:,number of feasibility cuts genreated; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbOptCuts:,number of optimality cuts generated; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbPosFeasSubp:,number of feasible cut generating subproblems with positive value; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbNegFeasSubp:,number of feasible cut generating subproblems with negative value; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbNullFeasSubp:,number of feasible cut generating subproblems with null value; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbInfeasSp:,number of infeasible cut generating subproblems; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbPosUnbdSubp:,number of positively unbounded cut generating subproblems; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nbNegUnbdSubp:,number of negatively unbounded cut generating subproblems; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+totTimeSubp:,sum of times spent in cut generating subproblems; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+totTimeSqrSubp:,sum of squared times spent in cut generating subproblems; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+maxRssMem:,maximum resident memory size; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+maxVmsMem:,maximum virtual memory size; -1 if invalid or missing; -99 if solution process crashed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2 Details of methods,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2.1 Hyperparameters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GRB:,use of Gurobi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CPX:,use of CPLEX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SCP:,use of SCIP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T:,relative gap tolerance,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+F:,inclusion of strong constraints (in a Benders method),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+U:,no inversion between normalization and objective (Fisch and statBS),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+G:,relative gap required from Fisch in initial step of adaptBS or Glomb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+M:,number of feasible integer solutions required from Fisch in initial step of adaptBS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E:,computation procedure of reference point in Seo (2: relaxed solution once initially; 4: relaxed solution at every callback),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+R:,metric involved in HT (0: L_inf; 1: L_1; 2: upper bound on L_1),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P:,common value of all elements in initial reference point in MW and Papa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L:,mixing weight applied when updating reference point in MW and Papa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+H:,mixing weight applied when updating reference point in Glomb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A:,also add a standard optimality cut whenever a MW optimality cut is added,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2.2 Algorithmic families,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ILP_flow:,brute force ILP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ILP_flow_strong:,brute force ILP with inclusion of strong constraints,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Std:,standard Benders,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Std_Decomp:,Benders with flow decomposition of subproblems,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fisch:,Fischetti et al.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+StatBS:,static Brandenberg-Stursberg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AdaptBS:,adaptive Brandenberg-Stursberg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Seo:,Seo et al.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HT:,Hosseini-Turner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MW:,Magnanti-Wong,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Papa:,Papadakos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Glomb:,Glomb et al.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
